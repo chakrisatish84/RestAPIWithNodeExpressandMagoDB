@@ -1,0 +1,24 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/5dc8ce29dc027277fcb2074f
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"Sateesh2",
+    "role":"Senior Systems Engineer"
+}
+
+###
+DELETE  http://localhost:3000/subscribers/5dc8ce29dc027277fcb2074f
+
+###
+PATCH  http://localhost:3000/subscribers/5dc8ce29dc027277fcb2074f
+Content-Type: application/json
+
+{
+ "name": "Sateesh Chava"   
+}
